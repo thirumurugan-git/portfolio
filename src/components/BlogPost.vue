@@ -29,7 +29,14 @@ export default defineComponent({
     if (!this.slug) return;
 
     const titleMap : { [key: string]: string } = {
-      "deploying-to-gh-pages" : "Deploying Vue App to GitHub Pages"
+      "deploying-to-gh-pages" : "Deploying Vue App to GitHub Pages",
+      "dfs-largest-divisable-subset" : "Largest Divisible Subset — Graph + DFS Approach",
+      "dp-scramble-string" : "Scramble String Problem",
+      "dp-stone-game-v" : "Stone Game V Solution",
+      "dp-stone-game" : "Stone Game Solution",
+      "dp-visit-array-positions-to-maximize-score" : "Visit Array Positions to Maximize Score",
+      "greedy-minimum-sum" : "Minimizing the Sum by Forming Two Numbers from Digits",
+      "greedy-police-and-thieves" : "Catch the Thieves (Greedy Algorithm)",
     };
 
     if (titleMap.hasOwnProperty(this.slug)) {
